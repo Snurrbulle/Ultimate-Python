@@ -20,5 +20,6 @@ def time(time):
 def pause(time):
     time.sleep(time)
 
-def say(it):
+def say(it, time=0):
     print(it)
+    pause(time)
