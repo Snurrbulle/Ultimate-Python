@@ -17,6 +17,8 @@ def time(time):
         return datetime.datetime.now()
     else:
         raise WError(1, "[That is actually a bad time.")
+def pause(time):
+    time.sleep(time)
 
 def say(it):
     print(it)
