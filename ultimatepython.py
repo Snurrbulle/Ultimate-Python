@@ -30,3 +30,7 @@ def open_window(title="My window", width1=100, height1=100, ):
     window.configure(width=width1, height=height1)
     window.configure(bg=background)
     window.mainloop()
+
+def ask(it, time=0):
+    say(it, time)
+    input(" ")
