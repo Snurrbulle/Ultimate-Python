@@ -33,4 +33,5 @@ def open_window(title="My window", width1=100, height1=100, ):
 
 def ask(it, time=0):
     say(it, time)
-    input(" ")
+    answear = input(" ")
+    return answear
